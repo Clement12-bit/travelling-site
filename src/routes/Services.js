@@ -1,7 +1,17 @@
+import Navbar from "../components/header/Navbar"
+import Hero from "../components/hero/Hero"
+import backgroundImg from "../assets/img6.jpg"
+
 function Services () {
     return(
         <>
-         <h1>This is Services page</h1>
+        <Navbar />
+        <Hero 
+            heroSection = "aboutSectio"
+            heroImg = {backgroundImg}
+            heroTitle = "Our Services"
+            btnClass = "hide"
+        />
         </>
     )
 }

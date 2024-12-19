@@ -1,7 +1,17 @@
+import Navbar from "../components/header/Navbar"
+import Hero from "../components/hero/Hero"
+import backgroundImg from "../assets/night.jpg"
+
 function Contact () {
     return(
         <>
-         <h1>This is contact page</h1>
+        <Navbar />
+        <Hero 
+            heroSection = "aboutSectio"
+            heroImg = {backgroundImg}
+            heroTitle = "Contact Us"
+            btnClass = "hide"
+        />
         </>
     )
 }

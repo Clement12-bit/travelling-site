@@ -1,6 +1,6 @@
 import Navbar from "../components/header/Navbar"
 import Hero from "../components/hero/Hero"
-import backgroundImg from "../assets/img3.jpg"
+import backgroundImg from "../assets/img1.jpg"
 
 function Home () {
     return(

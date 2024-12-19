@@ -4,6 +4,16 @@
     position: relative;
 }
 
+.aboutSectio{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.aboutSectio h1{
+    padding-top: 4rem !important;
+}
+
 img{
     width: 100%;
     height: 100%;
@@ -12,7 +22,7 @@ img{
 
 .hero_content{
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -40,5 +50,25 @@ img{
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
-    columns: #222;
+    color: #222;
+}
+
+.hero_content .hide{
+    display: none;
+}
+
+@media screen and (max-width: 555px) {
+    .hero_content h1{
+        padding: 10px 20px;
+    }
+
+    .hero_content p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero_content .show{
+        padding: 0.6rem 1.1rem;
+        font-size: 1rem;
+    }
 }
