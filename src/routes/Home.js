@@ -1,6 +1,7 @@
 import Navbar from "../components/header/Navbar"
 import Hero from "../components/hero/Hero"
 import backgroundImg from "../assets/img1.jpg"
+import Destination from "../components/destination/Destination"
 
 function Home () {
     return(
@@ -15,6 +16,7 @@ function Home () {
             url = "/"
             btnClass = "show"
         />
+        <Destination />
         </>
     )
 }
