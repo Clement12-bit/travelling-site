@@ -2,6 +2,8 @@ import Navbar from "../components/header/Navbar"
 import Hero from "../components/hero/Hero"
 import backgroundImg from "../assets/img1.jpg"
 import Destination from "../components/destination/Destination"
+import Trip from "../components/trip/Trip"
+import Footer from "../components/footer/Footer"
 
 function Home () {
     return(
@@ -17,6 +19,8 @@ function Home () {
             btnClass = "show"
         />
         <Destination />
+        <Trip />
+        <Footer />
         </>
     )
 }

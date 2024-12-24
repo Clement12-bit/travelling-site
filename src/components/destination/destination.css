@@ -6,24 +6,32 @@
     font-size: 3rem;
 }
 
-.first_container{
+.container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
 }
 
-.first_container .content{
+.container__reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.content{
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
 }
 
-.first_container .content h2{
+.content h2{
     padding-bottom: 1rem;
 }
 
-.first_container .img{
+.img{
     position: relative;
     width: 50%;
     display: flex;
@@ -31,7 +39,7 @@
     z-index: -99;
 }
 
-.first_container .img img{
+.img img{
     width: 49%;
     height: 350px;
     object-fit: cover;
@@ -39,7 +47,7 @@
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.1);
 }
 
-.first_container .img img:nth-child(2){
+.img img:nth-child(2){
     position: absolute;
     top: -10%;
     right: 0;
@@ -50,21 +58,22 @@
         margin: 4rem 2rem;
     }
 
-    .first_container{
+    .container,
+    .container__reverse{
         flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
 
-    .first_container .content,
-    .first_container .img{
+    .content,
+    .img{
         width: 100%;
     }
 
-    .first_container .img{
+    .img{
         margin: 1.8rem 0;
     }
 
-    .first_container .img img{
+    .img img{
         height: 250px;
     }
 }
