@@ -27,14 +27,14 @@ const Footer = () =>{
                     <Link to="/services">Services</Link>
                     <Link to="/about">About</Link>
                     <Link to="/contact">Contact Us</Link>
-                    <Link to="https://code-with-clement.netlify.app">Portfolio</Link>
+                    <Link to="https://code-with-clement.netlify.app" target="_blank">Portfolio</Link>
                 </div>
 
                 <div>
                     <h4>Projects</h4>
                     <Link to="/contact">Contact Us</Link>
-                    <Link to="https://code-with-clement.netlify.app">Portfolio</Link>
-                    <Link to="https://ccap-hyms.netlify.app">CCAP Hyms</Link>
+                    <Link to="https://code-with-clement.netlify.app" target="_blank">Portfolio</Link>
+                    <Link to="https://ccap-hyms.netlify.app" target="_blank">CCAP Hyms</Link>
                 </div>
 
                 <div>
@@ -58,7 +58,7 @@ const Footer = () =>{
                     <div>
                         <h6>Call:</h6>
                         <Link callto="+265993256552">
-                            <span>+265 993 256 552</span>
+                            <span>+265-993-256-552</span>
                         </Link>
                     </div>
                 </div>
