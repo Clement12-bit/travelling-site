@@ -1,6 +1,8 @@
 import Navbar from "../components/header/Navbar"
 import Hero from "../components/hero/Hero"
 import backgroundImg from "../assets/img6.jpg"
+import Footer from "../components/footer/Footer"
+import Trip from "../components/trip/Trip"
 
 function Services () {
     return(
@@ -12,6 +14,8 @@ function Services () {
             heroTitle = "Our Services"
             btnClass = "hide"
         />
+        <Trip />
+        <Footer />
         </>
     )
 }

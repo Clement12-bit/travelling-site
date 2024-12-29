@@ -1,6 +1,8 @@
 import Navbar from "../components/header/Navbar"
 import Hero from "../components/hero/Hero"
 import backgroundImg from "../assets/img5.jpg"
+import Footer from "../components/footer/Footer"
+import AboutUs from "../components/about/AboutUs"
 
 function About () {
     return(
@@ -12,6 +14,8 @@ function About () {
             heroTitle = "About"
             btnClass = "hide"
         />
+        <AboutUs />
+        <Footer />
         </>
     )
 }

@@ -1,6 +1,8 @@
 import Navbar from "../components/header/Navbar"
 import Hero from "../components/hero/Hero"
 import backgroundImg from "../assets/night.jpg"
+import Footer from "../components/footer/Footer"
+import Form from "../components/contactForm/Form"
 
 function Contact () {
     return(
@@ -12,6 +14,8 @@ function Contact () {
             heroTitle = "Contact Us"
             btnClass = "hide"
         />
+        <Form />
+        <Footer />
         </>
     )
 }
